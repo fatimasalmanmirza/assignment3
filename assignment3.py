@@ -1,6 +1,7 @@
 def customer_melons_report(the_file):
     melon_cost = 1.00
     # customer_expected = count * melon_cost
+    # comment
     for line in the_file:
         # line = line.rstrip()
         words = line.split("|")
